@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.date{
+    background-color: rgb(18, 18, 80);
+    height: 200px;
+   text-align: center;
+    padding-top: 100px;
+
+}
+.date h2{
+    color: azure;
+    padding-bottom: 50px; 
+    font-size: xx-large;
+}
+
+.date ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    
+}
+.date a{
+    color: rgb(22, 192, 192);
+    text-decoration: none;
+    
+    
+    
+}
+.brew{
+    max-width: 960px;
+    display: grid;
+    gap: 10px;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.item{
+    background-color:white;
+    padding: 20px;
+    width: 400px;
+    margin-right:40px ;
+
+}
+.item h2{
+    font-size: 2.0rem;
+    color: black;
+
+}
+.item p{
+    font-size: 1rem;
+    color: rgb(185, 128, 58);
+}
+.me{
+     max-width: 960px;
+    display: grid;
+    gap: 10px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.it{
+    background-color:white;
+    padding: 20px;
+    width: 400px;
+    margin-right:40px ;
+
+}
+.it h2{
+    font-size: 2.0rem;
+    color: black;
+
+    
+}
+    .it p{
+    font-size: 1rem;
+    color: rgb(185, 128, 58);
+}
+.footer{
+    color:  azure;
+    height: 70px;
+    background-color:  rgb(18, 18, 80);
+    text-align: center;
+    
+}
+.footer p{
+    font-size: 1.3rem;
+    padding-top: 35px;
+    
+}
+@media (max-width:500px) {
+    .date ul{
+    display: inline;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    color: rgb(22, 102, 102);
+    }
+    
+    
+}
+@media(max-width:500px) {
+    .brew{
+    max-width: 960px;
+    display: grid;
+    gap: 10px;
+    padding: 50px;
+    grid-template-columns:1fr   ;
+    }
+    
+}
