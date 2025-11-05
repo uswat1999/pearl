@@ -1,0 +1,349 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ========== HEADER / NAVBAR ========== */
+.kk {
+  background-color: rgb(189, 175, 150);
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+.kk a {
+  text-decoration: none;
+  color: rgb(209, 60, 60);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.kk ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin-left: 600px;
+}
+
+.kk ul li a {
+  color: rgb(209, 60, 60);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ========== FOOTER SECTION ========== */
+.mimi {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.mimi p {
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 10px;
+}
+
+/* ========== HERO SECTION ========== */
+.nav {
+  background-color: rgb(6, 6, 49);
+  padding: 60px 20px;
+  color: beige;
+}
+
+.nav h2 {
+  font-size: 3rem;
+}
+
+.nav h4 {
+  font-size: 1.5rem;
+}
+
+/* ========== SECTION WITH IMAGE BACKGROUND ========== */
+.kike {
+  background-image: url("pearl.jpg");
+  background-position: center;
+  height: 500px;
+  padding: 40px 20px;
+  text-align: center;
+  color: rgb(6, 6, 49);
+}
+
+.kike h4 {
+  font-size: 2.5rem;
+}
+
+.kike h2 {
+  font-size: 2rem;
+}
+
+.kike p {
+  font-size: 1.3rem;
+  margin: 40px auto;
+  font-weight: bolder;
+  max-width: 700px;
+}
+
+/* ========== FLEX SECTION ========== */
+.hi {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 70px 0;
+  gap: 20px;
+}
+
+.high {
+  background-color: rgb(41, 219, 18);
+  color: brown;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  flex: 1 1 300px;
+}
+
+.high h3 {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.high p {
+  margin: 10px;
+  font-weight: bolder;
+}
+
+/* ========== GRID SECTION ========== */
+.alicia {
+  background-color: rgb(189, 175, 150);
+  display: grid;
+  gap: 20px;
+  padding: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.mymy {
+  font-size: 2.5rem;
+  padding-top: 40px;
+  color: rgb(6, 6, 49);
+}
+
+/* ========== ITEM STYLING ========== */
+.item {
+  background-color: aquamarine;
+  padding: 40px;
+}
+
+.item p {
+  color: rgb(209, 60, 60);
+  font-size: 1.3rem;
+}
+
+/* ========== OTHER SECTIONS ========== */
+.ola {
+  background-color: rgb(6, 6, 49);
+  color: beige;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.ola h2 {
+  font-size: 2.5rem;
+}
+
+.ola h4 {
+  font-size: 2rem;
+}
+
+.ola p {
+  font-size: 1.2rem;
+  color: aquamarine;
+}
+
+/* ========== LIFE SECTION ========== */
+.feel {
+  background-color: brown;
+  padding: 60px 20px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+.life h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.life h5, .life h3, .life p, .life ul {
+  margin-bottom: 20px;
+}
+
+/* ========== GRID SECTION 2 ========== */
+.if {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  
+}
+
+.it {
+  padding: 40px;
+  
+}
+
+.hat {
+  text-align: center;
+  color: rgb(209, 60, 60);
+  font-size: 2.5rem;
+}
+
+.mum {
+  background-color: rgb(5, 3, 97);
+  text-align: center;
+  padding: 40px 20px;
+  color: rgb(209, 60, 60);
+}
+
+.mum h4 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.mum ul {
+  background-color: brown;
+  padding: 30px 0;
+  font-size: 1.3rem;
+  list-style: none;
+  color: azure;
+}
+
+.mime {
+  background-color: brown;
+  color: azure;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* ========== RESPONSIVE ADJUSTMENTS ========== */
+
+/* Tablet (≤ 900px) */
+@media (max-width: 900px) {
+  .kk {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .kk ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .nav h2 {
+    font-size: 2.5rem;
+  }
+
+  .high {
+    max-width: 100%;
+  }
+
+  .ola h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile (≤ 600px) */
+@media (max-width: 600px) {
+  .kk {
+    padding: 20px;
+  }
+
+  .kk a {
+    font-size: 1.2rem;
+  }
+
+  .mimi p {
+    font-size: 1.1rem;
+  }
+
+  .nav h2 {
+    font-size: 2rem;
+  }
+
+  .nav h4 {
+    font-size: 1.2rem;
+  }
+
+  .kike h4 {
+    font-size: 2rem;
+  }
+
+  .kike p {
+    font-size: 1.1rem;
+    margin: 20px;
+  }
+
+  .hi {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .high {
+    width: 90%;
+  }
+
+  .mymy {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .ola h2 {
+    font-size: 2rem;
+  }
+
+  .ola h4 {
+    font-size: 1.5rem;
+  }
+
+  .hat {
+    font-size: 2rem;
+  }
+
+  .mum h4 {
+    font-size: 2.5rem;
+  }
+
+  .life h1 {
+    font-size: 2rem;
+  }
+}
+
+/* ======= FIX: Make menu visible on mobile ======= */
+@media (max-width: 900px) {
+  .kk ul {
+    margin-left: 0 !important;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .kk ul {
+    margin-left: 0 !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
